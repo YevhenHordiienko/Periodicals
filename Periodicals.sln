@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Periodicals", "Periodicals\Periodicals.csproj", "{31C941D7-D2BB-4FE6-9F4F-6D1600802A41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Periodicals.Web", "Periodicals\Periodicals.Web.csproj", "{31C941D7-D2BB-4FE6-9F4F-6D1600802A41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Periodicals.Tests", "Periodicals.Tests\Periodicals.Tests.csproj", "{F23C3D04-4C7D-4EAE-860C-AC7B7513984E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Periodicals.Domain", "Periodicals.Domain\Periodicals.Domain.csproj", "{DBAD35FF-D9D5-442E-9047-0291FFC42B62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F23C3D04-4C7D-4EAE-860C-AC7B7513984E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F23C3D04-4C7D-4EAE-860C-AC7B7513984E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F23C3D04-4C7D-4EAE-860C-AC7B7513984E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBAD35FF-D9D5-442E-9047-0291FFC42B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBAD35FF-D9D5-442E-9047-0291FFC42B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBAD35FF-D9D5-442E-9047-0291FFC42B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBAD35FF-D9D5-442E-9047-0291FFC42B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

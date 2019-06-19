@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Periodicals\Periodicals.csproj">
+    <ProjectReference Include="..\Periodicals\Periodicals.Web.csproj">
       <Project>{31C941D7-D2BB-4FE6-9F4F-6D1600802A41}</Project>
-      <Name>Periodicals</Name>
+      <Name>Periodicals.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

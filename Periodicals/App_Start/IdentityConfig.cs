@@ -101,6 +101,7 @@ namespace Periodicals
             return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
         }
 
+        // logIn logOff method
         public static ApplicationSignInManager Create(IdentityFactoryOptions<ApplicationSignInManager> options, IOwinContext context)
         {
             return new ApplicationSignInManager(context.GetUserManager<ApplicationUserManager>(), context.Authentication);
