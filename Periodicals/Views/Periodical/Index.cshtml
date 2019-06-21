@@ -1,0 +1,17 @@
+﻿@using Periodicals.Domain.Entities
+@model IEnumerable<Periodical>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var m in @Model)
+{
+    <div>
+        <h3>@m.Name</h3>
+        <p>@m.Description</p>
+        <h4>@m.Price.ToString("# $")</h4>
+    </div>
+}

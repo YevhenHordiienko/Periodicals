@@ -14,5 +14,7 @@ namespace Periodicals.Web.Models
         }
         public DbSet<Phone> Phones { get; set; }
         public DbSet<Order> Orders { get; set; }
+
+        public System.Data.Entity.DbSet<Periodicals.Domain.Entities.Periodical> Periodicals { get; set; }
     }
 }
